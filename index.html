@@ -26,15 +26,19 @@
         <div class="container">
             <div id="right-side">
                 <div id="countdown">
-                    <p id="dia">03D</p>
-                    <p id="hora">01H</p>
-                    <p id="minuto">01M</p>
-                    <p id="segundo">01S</p>
+                    <p id="dia">00</p>
+                    <p class="abrev">D</p>
+                    <p id="hora">00</p>
+                    <p>H</p>
+                    <p id="minuto">00</p>
+                    <p>M</p>
+                    <p id="segundo">00</p>
+                    <p>S</p>
                 </div>
                 <div id="sub-title">
                     <h2>PARA A MAIOR CCXP DE TODOS OS TEMPOS<h2>
                             <div id="video">
-                                <video controls src="video/Vídeo-Figma-CCXP-Arlequina.mp4"></video>
+                                <video src="video/Vídeo-Figma-CCXP-Arlequina.mp4" controls loop></video>
                             </div>
                 </div>
             </div>
@@ -43,6 +47,16 @@
     <div id="bottom">
         <h2>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h2>
     </div>
+    <div id="tickets">
+        <img class="ccxpTicket" src="imagens/ticket-quinta.svg" alt="ticket-quinta">
+        <img class="ccxpTicket" src="imagens/ticket-sexta.svg" alt="ticket-sexta">
+        <img class="ccxpTicket" src="imagens/ticket-sabado.svg" alt="ticket-sabado">
+        <img class="ccxpTicket" id="domingo" src="imagens/ticket-domingo.svg" alt="ticket-domingo">
+        <div id="btn">
+            <button>GARANTA O SEU!</button>
+        </div>
+    </div>
+    <script src="Countdown.js"></script>
 </body>
 
 </html>
