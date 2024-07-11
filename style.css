@@ -51,7 +51,7 @@ section h2 {
     text-align: center;
     color: white;
     width: 676px;
-    height: 149px;
+    height: 95px;
     margin-left: 45px;
 }
 
@@ -91,4 +91,10 @@ section p {
     width: 600px;
     text-align: center;
     color: #E33881;
+}
+
+video {
+    padding-left: 9px;
+    width: 600px;
+    height: 400px;
 }
